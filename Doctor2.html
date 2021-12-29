@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+    body { background-image: url("https://static.wixstatic.com/media/be1a87_72daef73027f46c0a83bc2b458e75063~mv2.jpg");}
+div {
+  background-color: white;
+  height: 400px;
+  width: 500px;
+  border: 10px solid black;
+  padding: 50px;
+  margin: 30px;
+  border-radius: 50px 50px 50px 50px;    
+}
+   
+</style>
+</head>
+<body>
+
+<center><u><h2>Doctor suggestion and Patient medication</h2></u></center>
+
+<center>
+<div><form action="data.php" method="POST">
+  <label for="pid">Patient ID :</label>
+  <input type="text" id="pid" name="pid" required><br><br>
+  
+  
+  <label for="prescriptions">prescription:</label><br>
+<textarea id="prescriptions" name="prescriptions" rows="4" cols="40">
+</textarea>
+  <br><br>
+
+  <label for="suggestions">suggestions:</label><br>
+<textarea id="suggestions" name="suggestions" rows="4" cols="40">
+</textarea>
+  <br><br>
+  
+  <input type="submit" value="Submit">
+</form></div>
+</center>
+
+</body>
+</html>
+

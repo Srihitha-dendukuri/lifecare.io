@@ -1,0 +1,40 @@
+<html>
+<head>
+<script src="v.js"></script>
+<link rel="stylesheet" href="v.css">
+
+  
+
+</head>
+
+<h1> </h1>
+<div class="cage">
+    <form id="encdecForm">
+        <h2>Input Form</h2>
+        <fieldset id="inputField">
+            <div class="row">
+                <div class="label"><label for="ip">Input : </label></div>
+                <div class="box"><input type="text" id="ip" /></div>
+            </div><br clear="both" />
+            <div class="row">
+                <div class="label"><label for="key"> Key : </label></div>
+                <div class="box"><input type="text" id="key" /></div>
+            </div><br clear="both" />
+            <div class="row">
+                <label for="enc">Encrypt</label><input type="radio" name="slct" id="enc" value="encrypt" checked="checked" />
+                <label for="dec">Decrypt</label><input type="radio" name="slct" id="dec" value="decrypt" />
+            </div><br clear="both" /><hr />
+            <div class="row">
+                <div class="label"><label for="result">Result : </label></div>
+                <div class="box"><input type="text" id="result" /></div>
+            </div><br clear="both" />
+            <div class="row">
+                <input type="submit" value="Convert" name="convert" />
+                <input type="reset" value="Reset" name="resetButton" />
+            </div><br clear="both" />
+        </fieldset>
+    </form>
+</div>
+
+   
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+    body { background-image: url("https://static.wixstatic.com/media/be1a87_72daef73027f46c0a83bc2b458e75063~mv2.jpg");}
+div {
+  background-color: white;
+  height: 400px;
+  width: 500px;
+  border: 10px solid black;
+  padding: 50px;
+  margin: 30px;
+  border-radius: 50px 50px 50px 50px;    
+}
+   
+</style>
+</head>
+<body>
+
+<center><u><h2>Patient Entry Form</h2></u></center>
+
+<center>
+<div><form action="action_page.php" method="POST">
+  <label for="patientid">Patient ID :</label>
+
+  <select name="patientid" required>
+  <option selected hidden value="">Select patientId</option>
+  <option value="abcone">abcone</option>
+  <option value="abctwo">abctwo</option>
+  <option value="abcthree">abcthree</option>
+  <option value="abcfour">abcfour</option>
+  <option value="abcfive">abcfive</option>
+  <option value="abcsix">abcsix</option>
+  <option value="abcseven">abcseven</option>
+  <option value="abceight">abceight</option>
+  <option value="abcnine">abcnine</option>
+  <option value="abcten">abcten</option>
+  <option value="abceleven">abceleven</option>
+  <option value="abctwelve">abctwelve</option>
+  <option value="abcthirteen">abcthirteen</option>
+  <option value="abcfourteen">abcfourteen</option>
+  <option value="abcfifteen">abcfifteen</option>
+  <option value="abcsixteen">abcsixteen</option>
+  <option value="abcseventeen">abcseventeen</option>
+  <option value="abceighteen">abceighteen</option>
+  <option value="abcninteen">abcninteen</option>
+  <option value="abctwenty">abctwenty</option>
+  <option value="abctwentyone">abctwentyone</option>
+  <option value="abctwentytwo">abctwentytwo</option>
+  <option value="abctwentythree">abctwentythree</option>
+  <option value="abctwentyfour">abctwentyfour</option>
+  <option value="abctwentyfive">abctwentyfive</option>
+  
+</select>
+  
+  <label for="name">Name          :   </label>
+  <input type="text" id="name" name="name" required><br><br>
+  <label for="numb">Number :</label>
+  <input type="text" id="numb" name="numb" required><br><br>
+  
+  
+  
+  <label for="gender">Gender :</label>
+  <input type="radio" id="gender" name="gender" value="m"  required>male<br><br>
+  <input type="radio" id="gender" name="gender" value="f"  required>female<br><br>
+  <label for="symptoms">Symptoms:</label><br>
+<textarea id="symptoms" name="symptoms" rows="8" cols="50" required>
+  
+  </textarea>
+  <br><br>
+  
+  <input type="submit" value="Submit">
+</form></div>
+</center>
+
+</body>
+</html>
+
